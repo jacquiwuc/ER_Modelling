@@ -1,0 +1,21 @@
+The core components of the ERD could be divided as followed:
+
+1) Researcher – Authorship – Paper
+
+2) Professor – Assignment – Project
+
+3) Researcher – Employment/Position – School/Institution
+
+4) Researcher –Qualification/Degree – School/Institution and Professor/Supervisor
+
+5) Institution – School
+
+6) Researcher is-a LabAssistant and Professor (or Researcher – ResearcherType) with an attribute to differentiate among the different rank of professorship (the suggested solution uses type attribute in Employment).
+
+The alternative thinking as long as they are reasonable:
+
+1) It is acceptable to have a currentPosition or position attribute for the Researcher
+
+2) It is acceptable for School to be a strong entity set, which could affect the PK of School, Employment/Position and Qualification/Degree
+
+3) It is acceptable if students do not rename the FK in the entity set if there is no conflict 4) It is ok if they opt for a ResearchType pattern instead of a specialization or superset/subset. The solution is not as good because LabAssistant and Professor do not share many of the relationships.
