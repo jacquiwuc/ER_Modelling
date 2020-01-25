@@ -26,3 +26,13 @@ supervisor, and at what school. The supervisor must be a professor.
 
 • For each professor, information on what research projects (title, start and end dates) he or she is involved in,
 and the total amount of grant money for which he or she was the main applicant.
+
+Outcome:
+
+Draw a logical ERD in crow’s foot notation for the dataset described above. 
+
+Make sure to indicate all relevant entity sets, attributes, primary keys, foreign keys, relationships and cardinalities.
+
+Following good database design principle, the ERD should not contain redundant entity sets, relationships or attributes. 
+
+Use relationships whenever appropriate and include verb phrases when it is helpful. 
